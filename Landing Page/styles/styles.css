@@ -71,7 +71,7 @@ body, html {
 .hero-content {
   max-width: 800px;
   padding: 30px;
-  background: rgba(0, 0, 0, 0.8); 
+  background: rgba(0, 0, 0, 1); 
   border-radius: 10px;
 }
 
@@ -201,5 +201,51 @@ body, html {
 .testimonial-card h4 {
   margin-top: 15px;
   font-size: 1.2rem;
+}
+
+
+#featured-artists {
+  background-color: #111;
+  color: #fff;
+  padding: 50px 20px;
+}
+
+#featured-artists h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #f1c40f;
+}
+
+#featured-artists > .container > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center;
+}
+
+
+.artist-card {
+  background: #222;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  max-width: 250px;
+  text-align: center;
+}
+
+.artist-card img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.artist-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.artist-card p {
+  font-size: 1rem;
+  color: #aaa;
 }
 

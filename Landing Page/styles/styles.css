@@ -382,3 +382,42 @@ body, html {
 #contact div a:hover {
   text-decoration: underline;
 }
+
+
+footer {
+  background-color: #121212;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin-right: 15px;
+  color: #ffcc00;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.social-links a:last-child {
+  margin-right: 0;
+}
+
+footer .footer-credits {
+  margin-top: 15px;
+  font-size: 0.875rem;
+}
